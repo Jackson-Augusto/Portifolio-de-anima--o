@@ -16,12 +16,14 @@
 }
 
 .parent-link,
+
 .icon {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+
 
 .logo {
     height: 42px;
@@ -116,6 +118,8 @@ animation: palavras 30s infinite;
 
 .social-links:hover {
     opacity: 0.8;
+    transform: scale(1.2);
+    transition: 200ms;
 }
 
 .sm-icon {

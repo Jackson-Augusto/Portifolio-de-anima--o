@@ -53,6 +53,8 @@
 
 .social-links:hover {
     opacity: 0.8;
+    transform: scale(1.2);
+    transition: 200ms;
 }
 
 .sm-icon {
@@ -70,11 +72,13 @@
 
 
 header {
+    margin: 0;
+    padding: 0;
     height: 100vh;
     position: relative;
     background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 8.6)), url(../Assets/IMG/Viagem\ ruim.png);
 
-
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     color: white;
@@ -90,6 +94,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
+
 }
 
 h1 {
@@ -103,6 +108,7 @@ h1 {
 h2 {
     font-size: 48px;
     color: #11F58B;
+    font-style: italic;
 }
 
 
@@ -111,8 +117,8 @@ h2 {
     font-size: 20px;
     font-weight: 600;
     background-color: #11F58B;
-    ;
-    color: #EAF8FF;
+
+    color: #ffeaea;
     text-decoration: none;
     display: inline-block;
     padding: 16px 32px;
@@ -144,11 +150,17 @@ h2 {
 }
 
 .video1-portifolio {
+
     display: inline-block;
     position: relative;
     left: 10vw;
     top: 15vh;
 
+}
+
+.video1-portifolio:hover {
+    transform: scale(1.1);
+    transition: 200ms;
 }
 
 .video2-portifolio {
@@ -159,6 +171,12 @@ h2 {
 
 }
 
+.video2-portifolio:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+
 .video3-portifolio {
     display: inline-block;
     position: relative;
@@ -167,10 +185,34 @@ h2 {
 
 }
 
+.video3-portifolio:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
 .video4-portifolio {
     display: inline-block;
     position: relative;
     left: 20vw;
     top: 30vh;
 
+}
+
+.video4-portifolio:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+
+.video5-portifolio {
+    display: inline-block;
+    position: relative;
+    left: 10vw;
+    top: 45vh;
+
+}
+
+.video5-portifolio:hover {
+    transform: scale(1.1);
+    transition: 200ms;
 }
