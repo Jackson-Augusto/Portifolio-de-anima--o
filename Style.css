@@ -78,21 +78,24 @@ animation: palavras 30s infinite;
 
 
 @keyframes palavras {
-0%,25%{
+0%,20%{
     content: "Motion Designer";
 }
-26%,50% {
+21%,40% {
     content: "Animador 3D";
 }
 
-51%,75% {
+41%,60% {
     content: "Animador 2D";
 }
 
-76%, 100% {
+61%, 80% {
     content: "Futuro Fullstack";
 }
 
+81%, 100% {
+    content: "Programador de javascript";
+}
 }
 
 
