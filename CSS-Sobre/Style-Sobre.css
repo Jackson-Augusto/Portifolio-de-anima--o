@@ -82,9 +82,8 @@
 
 
 header {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+    padding-bottom: 10px;
+    height: 100%;
     position: relative;
     background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 8.6)), url(../Assets/IMG/BG.jpg);
 
@@ -95,6 +94,8 @@ header {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Inter', sans-serif;
 }
 
@@ -120,14 +121,14 @@ h2 {
     font-style: italic;
 }
 
-p{
-line-height: 23px;
+p {
+    line-height: 23px;
 
 }
 
 
-  
-  
+
+
 .btn:link,
 .btn:visited {
     margin-top: 10px;
@@ -151,7 +152,7 @@ line-height: 23px;
     transition: 200ms;
 }
 
-    
+
 .header-container {
     width: 1200px;
     position: relative;
