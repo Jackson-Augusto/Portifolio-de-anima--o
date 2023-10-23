@@ -106,7 +106,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 3rem;
     color: #11F58B;
     font-style: italic;
 }
@@ -132,85 +132,58 @@ h2 {
 
 .header-container {
 
-    width: 1200px;
-    position: relative;
-    left: 40rem;
-    transform: translate (-50%, -50%);
+    display: flex;
+    width: 100%;
+    justify-content: center;
 
 }
 
-.hdr-container-inner {
-
-    width: 50%;
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
 }
 
-.titulo-video {
-    margin-left: 6vw;
-    margin-bottom: 10px;
-}
 
-.video1-portifolio {
 
-    display: inline-block;
-    position: relative;
-    left: 10vw;
-    top: 15vh;
-
-}
 
 .video1-portifolio:hover {
     transform: scale(1.1);
     transition: 200ms;
 }
 
-.video2-portifolio {
-    display: inline-block;
-    position: relative;
-    left: 20vw;
-    top: 15vh;
-
-}
 
 .video2-portifolio:hover {
     transform: scale(1.1);
     transition: 200ms;
 }
 
-
-.video3-portifolio {
-    display: inline-block;
-    position: relative;
-    left: 10vw;
-    top: 30vh;
-
+.wrapper2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
 }
+
+
 
 .video3-portifolio:hover {
     transform: scale(1.1);
     transition: 200ms;
 }
 
-.video4-portifolio {
-    display: inline-block;
-    position: relative;
-    left: 20vw;
-    top: 30vh;
-
-}
 
 .video4-portifolio:hover {
     transform: scale(1.1);
     transition: 200ms;
 }
 
-
-.video5-portifolio {
-    display: inline-block;
-    position: relative;
-    left: 10vw;
-    top: 45vh;
-
+.wrapper3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
 }
+
+
 
 .video5-portifolio:hover {
     transform: scale(1.1);

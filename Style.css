@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +30,7 @@
 .Logo:hover {
     opacity: 0.7;
 }
+
 .txt-animado {
     font-size: 25px;
     font-weight: 400px;
@@ -44,9 +44,9 @@
 }
 
 .txt-animado span::before {
-content: "";
-color: #11F58B;
-animation: palavras 30s infinite;
+    content: "";
+    color: #11F58B;
+    animation: palavras 30s infinite;
 }
 
 .txt-animado span::after {
@@ -61,41 +61,67 @@ animation: palavras 30s infinite;
 }
 
 @keyframes digita {
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
         width: 0;
     }
-    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
         width: calc(100% + 10px);
     }
 }
 
 
 @keyframes cursor {
-    0%{
+    0% {
         border-left: 2px solid #11F58B;
     }
 }
 
 
 @keyframes palavras {
-0%,20%{
-    content: "Motion Designer";
-}
-21%,40% {
-    content: "Animador 3D";
-}
 
-41%,60% {
-    content: "Animador 2D";
-}
+    0%,
+    20% {
+        content: "Motion Designer";
+    }
 
-61%, 80% {
-    content: "Futuro Fullstack";
-}
+    21%,
+    40% {
+        content: "Animador 3D";
+    }
 
-81%, 100% {
-    content: "Programador de javascript";
-}
+    41%,
+    60% {
+        content: "Animador 2D";
+    }
+
+    61%,
+    80% {
+        content: "Futuro Fullstack";
+    }
+
+    81%,
+    100% {
+        content: "Programador de javascript";
+    }
 }
 
 
@@ -184,7 +210,7 @@ P {
     font-size: 20px;
     font-weight: 600;
     background-color: #11C9F5;
-    color: #EAF8FF; 
+    color: #EAF8FF;
     text-decoration: none;
     display: inline-block;
     padding: 16px 32px;
@@ -214,4 +240,126 @@ P {
 .hdr-container-inner {
 
     width: 50%;
+}
+
+
+@media screen and (max-width: 845px) {
+
+    header {
+
+        height: 100%;
+        width: 100%;
+        position: fixed;
+
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo-box {
+        position: fixed;
+        top: 5rem;
+    }
+
+    .logo {
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-animado {
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+        margin-left: 25px;
+        font-style: italic;
+
+    }
+
+    h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+    }
+
+
+
+    .parent-link {
+        margin-top: 90vh;
+        /* display: inline-block; */
+        position: relative;
+    }
+
+    .parent-link,
+    .icon {
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .icon {
+        position: absolute;
+    }
+
+    .social-links {
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        padding: 1rem;
+        margin: 0;
+        margin-bottom: 6vh;
+    }
+
+
+    .header-container {
+        top: 35%;
+        width: 100%;
+        left: auto;
+        padding: 0 29px;
+
+    }
+
+    .hdr-container-inner {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .texto-principal {
+        font-size: 2rem;
+        margin: auto;
+
+    }
+
+    P {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 4px;
+    }
+
+    .bnt {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+
+
+
+
+
+
+
+
+
 }
