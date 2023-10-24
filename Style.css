@@ -258,7 +258,11 @@ P {
     
     }
 
+
+    
+
     .container {
+        padding: 0;
         width: 100%;
         height: 100%;
     }
@@ -301,12 +305,14 @@ P {
 
     .parent-link,
     .icon {
+        margin-bottom: 2rem;
         align-items: center;
         justify-content: center;
     }
 
 
     .icon {
+        margin-top: 2rem;
         position: absolute;
     }
 
@@ -346,14 +352,6 @@ P {
         line-height: 1.6;
         margin-bottom: 4px;
     }
-
-    .bnt {
-        display: flex;
-        justify-content: space-around;
-
-    }
-
-
 
 
 

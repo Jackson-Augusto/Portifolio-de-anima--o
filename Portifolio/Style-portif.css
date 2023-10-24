@@ -164,6 +164,9 @@ h2 {
     margin-top: 10vh;
 }
 
+.video3-portifolio {
+    margin-top: 5px;
+}
 
 
 .video3-portifolio:hover {
@@ -188,4 +191,142 @@ h2 {
 .video5-portifolio:hover {
     transform: scale(1.1);
     transition: 200ms;
+}
+
+
+@media screen and (max-width: 845px) {
+
+    header {
+
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    
+    }
+ 
+    .container {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo-box {
+        position: relative;
+        top: 5rem;
+    }
+
+    .logo {
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.wrapper {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    transform: scale(0.5);
+
+}
+.video1-portifolio{
+margin-top: 0%;
+
+}
+
+.video2-portifolio {
+    margin-top: 15vh;
+}
+
+.wrapper2 {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    transform: scale(0.5);
+
+}
+
+.video3-portifolio{
+margin-top: auto;
+
+}
+
+
+
+
+
+.wrapper3 {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    transform: scale(0.5);
+
+}
+    
+    h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+    }
+
+    .parent-link {
+        margin-top: 90vh;
+        /* display: inline-block; */
+        position: relative;
+    }
+
+    .parent-link,
+    .icon {
+        z-index: 1000;
+        position: fixed;
+        margin-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .icon {
+        margin-top: 2rem;   
+        position: absolute;
+    }
+
+    .social-links {
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        padding: 1rem;
+        margin: 0;
+        margin-bottom: 6vh;
+    }
+
+
+    .header-container {
+        display: flex;
+        padding: 0 29px;
+        margin-top: 3rem;
+
+    }
+
+    .hdr-container-inner {
+        position: absolute;
+    }
+    
+h2 {
+    font-size: 2rem;
+    color: #11F58B;
+    font-style: italic;
+
+}
+    
 }
