@@ -227,19 +227,18 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
-.wrapper {
+    .wrapper {
     z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10vh;
+    position: relative;
+    margin-top: -4vh;
     flex-wrap: wrap;
     transform: scale(0.5);
+    }
 
-}
-.video1-portifolio{
-margin-top: 0%;
+    .video1-portifolio{
+        margin-top: 0%;
 
-}
+    }
 
 .video2-portifolio {
     margin-top: 15vh;
@@ -247,12 +246,10 @@ margin-top: 0%;
 
 .wrapper2 {
     z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10vh;
+    position: relative;
+    margin-top: -41vh;
     flex-wrap: wrap;
     transform: scale(0.5);
-
 }
 
 .video3-portifolio{
@@ -260,15 +257,15 @@ margin-top: auto;
 
 }
 
-
+.video4-portifolio {
+    margin-top: 15vh;
+}
 
 
 
 .wrapper3 {
     z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10vh;
+    margin-top: -30vh;
     flex-wrap: wrap;
     transform: scale(0.5);
 
@@ -281,7 +278,7 @@ margin-top: auto;
     }
 
     .parent-link {
-        margin-top: 90vh;
+        margin-top: 24vh;
         /* display: inline-block; */
         position: relative;
     }
@@ -289,8 +286,7 @@ margin-top: auto;
     .parent-link,
     .icon {
         z-index: 1000;
-        position: fixed;
-        margin-bottom: 2rem;
+        position: absolute;
         align-items: center;
         justify-content: center;
     }
@@ -307,12 +303,12 @@ margin-top: auto;
         font-weight: 500;
         padding: 1rem;
         margin: 0;
-        margin-bottom: 6vh;
+        margin-top: 4vh;
     }
 
 
     .header-container {
-        display: flex;
+        display: none;
         padding: 0 29px;
         margin-top: 3rem;
 
