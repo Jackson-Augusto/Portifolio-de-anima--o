@@ -69,21 +69,33 @@
     opacity: 0.8;
 }
 
+
 .foto-jackson {
     display: inline-block;
-    border-radius: 15%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;  /* Define a máscara redonda */
     width: 400px;
-    height: auto;
-
+    height: 400px;
     position: absolute;
-    left: 15vw;
+    left: 7vw;
     top: 15vh;
+    
 }
+img {
+    top: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Para manter a imagem proporcional */
+}
+
 
 
 header {
     padding-bottom: 10px;
-    height: 100%;
+    height: 100vw;
     position: relative;
     background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 8.6)), url(../Assets/IMG/BG.jpg);
 
@@ -154,23 +166,23 @@ p {
 
 
 .header-container {
-    width: 1200px;
-    position: relative;
-    left: 45rem;
-    transform: translate (-50%, -50%);
+    display: inline-block;
+    width: 100%;
 
 }
 
 .hdr-container-inner {
-
+position: absolute;
+right: 8%;
     width: 50%;
 }
 
 @media screen and (max-width: 845px) {
-main {
-height: auto;
 
-}
+    main {
+        height: auto;
+
+    }
     header {
 
         height: 100%;
@@ -184,7 +196,20 @@ height: auto;
 
     }
 
-
+    .btn:link,
+    .btn:visited {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #11F58B;
+    
+        color: #ffeaea;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 15px;
+        margin-left: 30vw;
+    }
 
 
     .container {
@@ -238,17 +263,17 @@ height: auto;
 
     .header-container {
         
-       display: contents;
+        margin-top: 47vh;
 
 
     }
 
     .hdr-container-inner {
-        display: inline;
-        position: relative;
-        top: 47vh;
-
+        display: contents;
+     
     }
+
+   
 
     .foto-jackson {
         position: absolute;
@@ -256,6 +281,7 @@ height: auto;
         display: block;
         margin: 0 25px;
         width: 200px;
+        margin-left: 16vw;
         height: 200px;
         overflow: hidden;
         border-radius: 50%;  /* Define a máscara redonda */
@@ -270,9 +296,9 @@ height: auto;
     }
 
     h2 {
-text-align: center;
-padding: 0 5vw;
-margin-bottom: 15px;
+        text-align: center;
+        padding: 0 5vw;
+        margin-bottom: 15px;
 
     }
     p {
