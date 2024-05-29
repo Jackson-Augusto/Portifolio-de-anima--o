@@ -247,6 +247,7 @@ h2 {
     margin-top: -4vh;
     flex-wrap: wrap;
     transform: scale(0.5);
+    justify-content: center;
     }
 
     .video1-portifolio{
@@ -264,6 +265,7 @@ h2 {
     margin-top: -41vh;
     flex-wrap: wrap;
     transform: scale(0.5);
+    justify-content: center;
 }
 
 .video3-portifolio{
@@ -282,6 +284,7 @@ margin-top: auto;
     margin-top: -30vh;
     flex-wrap: wrap;
     transform: scale(0.5);
+    justify-content: center;
 
 }
     
