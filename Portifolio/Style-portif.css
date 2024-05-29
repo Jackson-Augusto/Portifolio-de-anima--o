@@ -194,7 +194,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 1282px) {
 
     header {
 
@@ -227,12 +227,19 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
+
+.videos-geral{
+    display: block;
+
+    
+}
     .wrapper {
     z-index: 1;
     position: relative;
     margin-top: -4vh;
     flex-wrap: wrap;
     transform: scale(0.5);
+    justify-content: center;
     }
 
     .video1-portifolio{
@@ -247,9 +254,10 @@ h2 {
 .wrapper2 {
     z-index: 1;
     position: relative;
-    margin-top: -41vh;
+    margin-top: -45vh;
     flex-wrap: wrap;
     transform: scale(0.5);
+    justify-content: center;
 }
 
 .video3-portifolio{
@@ -268,6 +276,7 @@ margin-top: auto;
     margin-top: -30vh;
     flex-wrap: wrap;
     transform: scale(0.5);
+    justify-content: center;
 
 }
     
